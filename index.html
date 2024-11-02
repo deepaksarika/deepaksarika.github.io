@@ -1,1 +1,69 @@
-<title>Hi</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jane Doe</h1>
+        <p>Data Analyst | Data Scientist</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a data analyst with a passion for transforming data into actionable insights. Experienced in data wrangling, visualization, and predictive modeling.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, R, SQL</li>
+            <li>Data Visualization (Tableau, Power BI)</li>
+            <li>Machine Learning</li>
+            <li>Statistical Analysis</li>
+            <li>ETL Processes</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Customer Segmentation Analysis</h3>
+            <p>A clustering project using K-means to group customers based on purchasing behavior.</p>
+            <button onclick="showProjectDetails('Customer Segmentation Analysis')">View Details</button>
+        </div>
+        <div class="project-card">
+            <h3>Sales Forecasting</h3>
+            <p>Built a predictive model to forecast monthly sales with 85% accuracy using time series analysis.</p>
+            <button onclick="showProjectDetails('Sales Forecasting')">View Details</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 Jane Doe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
